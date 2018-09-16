@@ -4,7 +4,8 @@
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
   padding: 20px;
-  margin: -10px;
+
+  /* margin: -10px; */
   font-family: "Raleway", san-serif;
 
 }
@@ -57,11 +58,12 @@ p.name {
 
 
 p.label {
-  font-size: 25px;
+  font-size: 30px;
   color: red;
+  font-family: 'Oswald', sans-serif;
   font-weight: 900;
   letter-spacing: -1px;
-  bottom: 300px;
+  bottom: 325px;
   position: absolute;
   padding-left: 50px;
 }
@@ -71,13 +73,13 @@ p.label {
      border-radius: 50px;
      color: white;
      display: inline-block;
-     font-size: 25px;
+     font-size: 20px;
      line-height: 1;
      margin-top: 25px;
      margin-right: 5px;
      padding: 20px;
      text-align: center;
-     width: 226px;
+     width: 200px;
 
  }
 
@@ -101,15 +103,15 @@ p.label {
 
 h1 {
   color: black;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 100px;
   font-weight: 900;
-  line-height: 80px;
-  letter-spacing: -1px;
+  line-height: 90px;
   padding: 50px;
   position: absolute;
+  letter-spacing: -3px;
   bottom: 5px;
-  margin: 0px;
+  margin: 0;
 }
 
 section.sidebar {
@@ -134,7 +136,7 @@ section.info {
 
 h2 {
   color: white;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 40px;
 }
@@ -152,6 +154,7 @@ h3 {
   font-family: 'Raleway';
   font-size: 20px;
   font-weight: 700;
+  text-transform: uppercase;
   margin-top: 20px;
 }
 
@@ -159,10 +162,10 @@ h4 {
   color: white;
   font-family: 'Raleway';
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 900;
   margin-top: 20px;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
 }
 
 p.address {
